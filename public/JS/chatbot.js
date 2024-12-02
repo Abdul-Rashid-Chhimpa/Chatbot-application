@@ -99,7 +99,7 @@ async function generateContent() {
         const geminiDIv = document.createElement("div");
         geminiDIv.className = "gemini";
         const img = document.createElement("img");
-        img.src = "./IMG/ai-technology.png";
+        img.src = "/public/IMG/ai-technology.png";
         geminiDIv.appendChild(img);
 
 
