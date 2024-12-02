@@ -10,7 +10,7 @@ app.set("views", path.resolve("./views"));
 app.use('/public', express.static('public'));
 
 app.get("/", (req, res) => {
-    return res.render("homePage");
+ res.render("homePage");
 })
 
 app.get("/chatbot", (req, res) => {
