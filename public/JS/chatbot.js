@@ -149,11 +149,11 @@ menu.addEventListener("click", function() {
 
 const about = document.getElementById("about");
 about.addEventListener("click", function() {
-    location.href = "http://localhost:3000/about";
+    location.href = "https://chatbot-application-4.onrender.com/about";
 })
 
 const createNewChat = document.getElementById("create-new-chat");
 createNewChat.addEventListener("click", function() {
-    const url = 'http://localhost:3000/';
+    const url = 'https://chatbot-application-4.onrender.com/';
     window.open(url, '_blank');
 })
